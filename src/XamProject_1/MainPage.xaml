@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamProject_1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkRed" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Ariel's Sandbox, buckle up!" HorizontalTextAlignment="Center" TextColor="AntiqueWhite" FontSize="36"/>
+        </Frame>
+        <Label Text="Testing now" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Hello world, don't mind me, just testing my first mobile app" FontSize="16" TextColor="DarkRed" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="To have some fun go to: "/>
+                        <Span Text="https://matias.ma/nsfw/" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+
+</ContentPage>
